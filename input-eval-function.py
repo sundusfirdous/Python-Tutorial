@@ -47,26 +47,3 @@ int() -> convert to number
 eval() -> executes code
 '''
 
-
-
-x = input("Enter first value: ")
-x = 10
-y = x + 5
-x = "Python"
-print(type(x))
-print(y)
-
-
-'''
-What will be the output?
-
-A) <class 'str'> and 15
-B) <class 'str'> and Error
-C) <class 'int'> and 15
-D) Error in first line
-
-'''
-x = eval("2 + 3")
-print(x)
-
-
